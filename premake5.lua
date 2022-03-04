@@ -19,9 +19,7 @@ project "ImGui"
         "imgui_widgets.cpp",
         "imstb_rectpack.h",
         "imstb_textedit.h",
-        "imstb_truetype.h",
-        "backends/imgui_impl_opengl3.h",
-        "backends/imgui_impl_opengl3.cpp",
+        "imstb_truetype.h"
     }
 
     filter "system:windows"
@@ -29,13 +27,6 @@ project "ImGui"
 
     filter "system:linux"
         systemversion "latest"
-
-        files {
-            "backends/imgui_impl_glfw.h",
-            "backends/imgui_impl_glfw.cpp",
-            "backends/imgui_impl_opengl3.h",
-            "backends/imgui_impl_opengl3.cpp"
-        }
 
     filter "configurations:Debug"
         runtime "Debug"
