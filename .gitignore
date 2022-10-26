@@ -59,5 +59,9 @@ examples/example_sdl_sdlrenderer/example_sdl_sdlrenderer
 bin/
 obj/
 
+# VS files
+*.vcxproj
+*.vcxproj.*
+
 # Make files
 Makefile
